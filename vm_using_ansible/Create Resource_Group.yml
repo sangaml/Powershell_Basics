@@ -1,0 +1,6 @@
+#Create_resource_group
+---
+- name: Create resource group
+    azure_rm_resourcegroup:
+      name: ansiblerg
+      location: eastus
